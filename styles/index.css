@@ -1,0 +1,47 @@
+body {
+  padding: 2em;
+}
+
+.header {
+  background: lightgrey;
+  padding: 6px 12px;
+  margin-bottom: 12px;
+}
+
+button {
+  color: white;
+  background: #4a4ade;
+  border: 1px solid black;
+  opacity: 1;
+  transition: all .2s ease-in-out;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+button#clear {
+  background: red;
+  margin-left: 48px;
+}
+
+button:hover, button:focus {
+  opacity: .75;
+}
+
+.row {
+  height: 50px;
+  border: 1px solid blue;
+  padding: 6px;
+  margin-bottom: 6px;
+}
+
+.row p {
+  margin: 6px;
+}
+
+#info {
+  float: right;
+}
+
+#result {
+  color: red;
+}
